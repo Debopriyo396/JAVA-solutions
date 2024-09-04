@@ -1,0 +1,416 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "RemoveDuplicatesBruteForce",
+      "request": "launch",
+      "mainClass": "RemoveDuplicatesBruteForce",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "BlankString",
+      "request": "launch",
+      "mainClass": "BlankString",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "dec2bin",
+      "request": "launch",
+      "mainClass": "dec2bin",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "primeArray",
+      "request": "launch",
+      "mainClass": "primeArray",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "inputSorted",
+      "request": "launch",
+      "mainClass": "inputSorted",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "reverse2",
+      "request": "launch",
+      "mainClass": "reverse2",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "KrishnaMurthy",
+      "request": "launch",
+      "mainClass": "KrishnaMurthy",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "CheckWordPres",
+      "request": "launch",
+      "mainClass": "CheckWordPres",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "SmoLargeWord",
+      "request": "launch",
+      "mainClass": "SmoLargeWord",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "Middleword",
+      "request": "launch",
+      "mainClass": "Middleword",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "LcmGcd",
+      "request": "launch",
+      "mainClass": "LcmGcd",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "MatrixOps",
+      "request": "launch",
+      "mainClass": "MatrixOps",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "SumRec",
+      "request": "launch",
+      "mainClass": "SumRec",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "PrimeNo",
+      "request": "launch",
+      "mainClass": "PrimeNo",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "SubaLargestSum",
+      "request": "launch",
+      "mainClass": "SubaLargestSum",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "ReverseNos",
+      "request": "launch",
+      "mainClass": "ReverseNos",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "RearrangeBits",
+      "request": "launch",
+      "mainClass": "RearrangeBits",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "ReverseNo",
+      "request": "launch",
+      "mainClass": "ReverseNo",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "CaseAccCase",
+      "request": "launch",
+      "mainClass": "CaseAccCase",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "ProductSmallestPair",
+      "request": "launch",
+      "mainClass": "ProductSmallestPair",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "DiffSumDivFour",
+      "request": "launch",
+      "mainClass": "DiffSumDivFour",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "AbsDiff",
+      "request": "launch",
+      "mainClass": "AbsDiff",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "ratsMaze",
+      "request": "launch",
+      "mainClass": "ratsMaze",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "StonesMars",
+      "request": "launch",
+      "mainClass": "StonesMars",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "SumOfEleLeastKLength",
+      "request": "launch",
+      "mainClass": "SumOfEleLeastKLength",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "sumOfeleLeastKLeng",
+      "request": "launch",
+      "mainClass": "sumOfeleLeastKLeng",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "minSquares",
+      "request": "launch",
+      "mainClass": "minSquares",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "DifficultyWord",
+      "request": "launch",
+      "mainClass": "DifficultyWord",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "MinnoOfInts",
+      "request": "launch",
+      "mainClass": "MinnoOfInts",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "Anagram",
+      "request": "launch",
+      "mainClass": "Anagram",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "consVowCost",
+      "request": "launch",
+      "mainClass": "consVowCost",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "SmallLargeSum",
+      "request": "launch",
+      "mainClass": "SmallLargeSum",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "BiasedDice",
+      "request": "launch",
+      "mainClass": "BiasedDice",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "round",
+      "request": "launch",
+      "mainClass": "round",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "StandardDevi",
+      "request": "launch",
+      "mainClass": "StandardDevi",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "zfLargestnoDiviBy90",
+      "request": "launch",
+      "mainClass": "zfLargestnoDiviBy90",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "dontContain3inDeciRep",
+      "request": "launch",
+      "mainClass": "dontContain3inDeciRep",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "ComplexMatrix",
+      "request": "launch",
+      "mainClass": "ComplexMatrix",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "sumOfLeaders",
+      "request": "launch",
+      "mainClass": "sumOfLeaders",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "tripletwithProdm",
+      "request": "launch",
+      "mainClass": "tripletwithProdm",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "SpecificNumber",
+      "request": "launch",
+      "mainClass": "SpecificNumber",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "BalanceFruits",
+      "request": "launch",
+      "mainClass": "BalanceFruits",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "exponent2",
+      "request": "launch",
+      "mainClass": "exponent2",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "NoOfDistinctEle",
+      "request": "launch",
+      "mainClass": "NoOfDistinctEle",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "CheckPassword",
+      "request": "launch",
+      "mainClass": "CheckPassword",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "replacechar",
+      "request": "launch",
+      "mainClass": "replacechar",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "equilibrium",
+      "request": "launch",
+      "mainClass": "equilibrium",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "autobionum",
+      "request": "launch",
+      "mainClass": "autobionum",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "freq",
+      "request": "launch",
+      "mainClass": "freq",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "quadra",
+      "request": "launch",
+      "mainClass": "quadra",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "notation",
+      "request": "launch",
+      "mainClass": "notation",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "binop",
+      "request": "launch",
+      "mainClass": "binop",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "cards",
+      "request": "launch",
+      "mainClass": "cards",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "charsmap",
+      "request": "launch",
+      "mainClass": "charsmap",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "type": "java",
+      "name": "namepx",
+      "request": "launch",
+      "mainClass": "namepx",
+      "projectName": "programiz_406dc283"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/debop/OneDrive/Desktop/programiz",
+      "program": "c:/Users/debop/OneDrive/Desktop/programiz/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
