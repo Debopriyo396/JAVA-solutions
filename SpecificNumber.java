@@ -1,3 +1,29 @@
+
+/***Question:**
+
+Write a program that counts the number of integers within a given range [A, B] whose digits are only 1, 4, or 9.
+
+**Input:**
+- Two integers A and B, where A ≤ B.
+
+**Output:**
+- The count of numbers between A and B (inclusive) where all digits are either 1, 4, or 9.
+
+**Example:**
+
+**Input:**
+```
+1
+20
+```
+
+**Output:**
+```
+3
+```
+
+**Explanation:**
+- The numbers within the range that contain only the digits 1, 4, or 9 are 1, 4, and 9. Thus, the count is 3. */
 import java.util.Scanner;
 
 public class SpecificNumber {

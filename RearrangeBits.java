@@ -1,3 +1,37 @@
+
+/***Question:**
+
+You are given an integer `n`. The task is to rearrange the bits of its binary representation such that all 1s come before all 0s and then convert this new binary representation back to its decimal form.
+
+Write a program to perform the following steps:
+1. Convert the integer `n` to its binary representation.
+2. Rearrange the bits of the binary representation so that all 1s appear before all 0s.
+3. Convert this new binary representation back to its decimal form and output the result.
+
+**Input:**
+- An integer `n`.
+
+**Output:**
+- The decimal value of the rearranged binary representation.
+
+**Example:**
+
+**Input:**
+```
+10
+```
+
+**Output:**
+```
+6
+```
+
+**Explanation:**
+
+1. Binary representation of `10` is `1010`.
+2. Rearranging the bits to get all 1s before all 0s gives `1100`.
+3. Decimal value of `1100` is `12`. */
+
 import java.util.Scanner;
 
 public class RearrangeBits { // 10==>1010 == 11==> 3

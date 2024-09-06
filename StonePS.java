@@ -1,3 +1,4 @@
+/*STONE-PAPER-SCISSOR */
 import java.util.Scanner;
 
 public class StonePS {

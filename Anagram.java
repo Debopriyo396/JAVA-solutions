@@ -1,5 +1,22 @@
-import java.util.Scanner;
+// ### Problem Statement for the Code (Anagram.java):
 
+// **Question**:  
+// Write a program that checks if two given strings are anagrams. Two strings are considered anagrams if they contain the same characters with the same frequencies, regardless of their order.
+
+// **Input**:  
+// Two strings `String 1` and `String 2`.
+
+// **Output**:  
+// The program should output `Anagram` if the two strings are anagrams, and `Not Anagram` if they are not.
+
+// **Example**:
+
+// **Input**:  
+// `listen silent`
+
+// **Output**:  
+// `Anagram`
+import java.util.Scanner;
 public class Anagram {
   public static void main(String[] args) {
     int i = 0, j = 0, c = 0;

@@ -1,3 +1,43 @@
+
+/* ### Question:
+
+**Problem Statement:**
+
+Write a program that performs the following tasks:
+
+1. Given a string and a character, find the most frequent lowercase letter in the string.
+2. Replace all occurrences of this most frequent letter with the given character.
+3. Output the resulting string.
+
+**Input:**
+
+- A string `s` consisting of lowercase letters and possibly other characters.
+- A single lowercase character `ch`.
+
+**Output:**
+
+- The modified string with all occurrences of the most frequent lowercase letter replaced by `ch`.
+
+**Example:**
+
+**Input:**
+
+```
+Enter String: abacabadabacaba
+Enter character: x
+```
+
+**Output:**
+
+```
+xxxcxxxdxxx
+```
+
+**Explanation:**
+
+In the string "abacabadabacaba":
+- The letter 'a' is the most frequent lowercase letter (appears 8 times).
+- Replacing all occurrences of 'a' with 'x' gives "xxxcxxxdxxx".*/
 import java.util.*;
 
 public class freq {

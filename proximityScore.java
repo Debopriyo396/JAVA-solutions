@@ -1,76 +1,81 @@
-import java.util.*;
 
-public class proximityScore {
+/***Question:**
+
+You are given two strings, `s1` and `s2`. Your task is to compute a "proximity score" between these two strings. The score is calculated based on the following rules:
+
+1. For each character position where both strings have the same character, add 2 to the score.
+2. For each character in `s1` that appears anywhere in `s2` (excluding the matched positions), add 1 to the score.
+
+Write a program to calculate this "proximity score" based on the provided strings.
+
+**Input:**
+- The first line contains the string `s1`.
+- The second line contains the string `s2`.
+
+**Output:**
+- Print the proximity score.
+
+**Example:**
+
+**Input:**
+```
+amitabh
+ajitabh
+```
+
+**Output:**
+```
+12
+```
+
+**Explanation:**
+
+- Comparing characters at the same positions:
+  - `a` (s1[0]) == `a` (s2[0]) → +2
+  - `i` (s1[1]) == `i` (s2[1]) → +2
+  - `t` (s1[2]) == `t` (s2[2]) → +2
+  - `a` (s1[3]) == `a` (s2[3]) → +2
+  - `b` (s1[4]) == `b` (s2[4]) → +2
+  - `h` (s1[5]) == `h` (s2[5]) → +2
+
+- Additional matches:
+  - `a` (s1[0]) appears again in s2 at positions 3, 6 → +1 +1
+  - `i` (s1[1]) appears again in s2 at positions 4 → +1
+  - `t` (s1[2]) appears again in s2 at positions 5 → +1
+
+Total proximity score = 12. */
+import java.util.Scanner;
+
+public class ProximityScore {
     public static void main(String[] args) {
-        int i=0,j=0,c=0,max=0,min =0;
-        Scanner sc=new Scanner(System.in);
+        int i, j, c = 0;
+        Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter name 1: ");
-        String s1=sc.nextLine();
+        String s1 = sc.nextLine();
+
         System.out.println("Enter name 2: ");
-        String s2=sc.nextLine();
-        int n1=s1.length(), n2=s2.length();
-        /*while(i<Math.min(n1,n2))
-        {
-            if(s1.charAt(i)==s2.charAt(i))
-            {
-                c+=2;
+        String s2 = sc.nextLine();
+
+        int n1 = s1.length();
+        int n2 = s2.length();
+
+        int max = Math.max(n1, n2);
+        int min = Math.min(n1, n2);
+
+        for (i = 0; i < min; i++) {
+            if (s1.charAt(i) == s2.charAt(i)) {
+                c += 2;
             }
-            i++;
-        }*/
-        if(n1==n2){
-        max=n1;
-        min=n2;}
-        else if(n1>n2){
-        max=n1; 
-        min =n2;}
-        else {
-        max=n2;
-        min=n1;
-         }
-        for (i= 0;i<max;i++) {
-            for (j=0;j<min;j++) {
-                if(s1.charAt(i)==s2.charAt(j) && i==j){
-                c+=2;
-                }
-                else if(s1.charAt(i)==s2.charAt(j))
-                {
+            for (j = 0; j < max; j++) {
+                if (i != j && i < n1 && j < n2 && s1.charAt(i) == s2.charAt(j)) {
                     c++;
                 }
             }
         }
-        System.out.println(c);
+
+        System.out.println("Proximity score: " + c);
+
+        sc.close();
     }
 }
-
-
-
-/*@charles3367
-11 months ago
-first solution is absolutely wrong it will never work for 3rd case here is solution in java
-
-
-
-
-
-public static void main(String[] args) {
-		String s1="amitabh";
-		String s2="ajitabh";
-		int count=0;
-		for(int i=0;i<s1.length();i++) {
-			char c= s1.charAt(i);
-			if(s2.contains(c+"")) {
-				if(s2.indexOf(c)==i) {
-					count=count+2;
-				s2=s2.replaceFirst(c+"", " ");
-	
-				}
-				else {
-					count++;
-					s2=s2.replaceFirst(c+"", " ");
-				}
-				
-			}
-		}
-		System.out.println("count ="+count);
-	}*/
-

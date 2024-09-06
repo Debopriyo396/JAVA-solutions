@@ -1,3 +1,34 @@
+
+/***Question:**
+
+Write a program to find the contiguous subarray of length `k` with the minimum sum in a given array of integers. The program should output the subarray.
+
+**Input:**
+- An integer `n`, the number of elements in the array.
+- `n` integers representing the elements of the array.
+- An integer `k`, the length of the subarray.
+
+**Output:**
+- The subarray of length `k` with the minimum sum.
+
+**Example:**
+
+**Input:**
+```
+7
+25 11 12 21 25 19 4
+3
+```
+
+**Output:**
+```
+11
+12
+21
+```
+
+**Explanation:**
+- The subarray `[11, 12, 21]` has the minimum sum of `44` among all subarrays of length `3`. */
 import java.util.Scanner;
 public class sumOfeleLeastKLeng {
   public static void main(String[] args) {

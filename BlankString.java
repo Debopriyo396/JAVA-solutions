@@ -1,3 +1,38 @@
+
+/*### Question:
+
+**Problem Statement:**
+
+You are given a string `s1` that contains a sentence with words separated by multiple spaces. Your task is to process the string to remove any extra spaces between words and count the length of the resulting string.
+
+**Input:**
+
+- A single line of input `s1` (1 ≤ length of `s1` ≤ 1000) containing a sentence with words separated by spaces.
+
+**Output:**
+
+- The processed string with extra spaces removed.
+- The length of the processed string.
+
+**Example:**
+
+**Input:**
+
+`Hello    world amazing`
+
+**Output:**
+
+`Hello world amazing`
+`20`
+
+**Explanation:**
+
+For the input string `Hello    world amazing`:
+
+1. Remove extra spaces to get the cleaned-up string `Hello world amazing`.
+2. The length of this processed string is `20`.
+
+The length count includes all characters including spaces, but extra spaces between words are removed.*/ 
 import java.util.Scanner;
 
 public class BlankString {

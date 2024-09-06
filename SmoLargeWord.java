@@ -1,3 +1,31 @@
+
+/***Question:**
+
+Write a program that finds and prints the longest and shortest words in a sentence.
+
+**Input:**
+- A single line containing a sentence with words separated by spaces.
+
+**Output:**
+- The longest word.
+- The shortest word.
+
+**Example:**
+
+**Input:**
+```
+The quick brown fox jumps over the lazy dog
+```
+
+**Output:**
+```
+jumps
+The
+```
+
+**Explanation:**
+- The longest word is `jumps` (length 5).
+- The shortest word is `The` (length 3). */
 import java.util.Scanner;
 
 public class SmoLargeWord {

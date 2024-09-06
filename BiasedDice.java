@@ -1,3 +1,35 @@
+
+// ###Question:
+
+// **Problem Statement:**
+
+// You are given the sum`s`of the faces of two dice.Your task is to find out the number of possible outcomes of rolling two dice such that their sum is equal to`s`.Each die has faces numbered from 1 to 6.
+
+// **Input:**
+
+// -A single integer`s`(2≤s≤12),representing the desired sum of the two dice.
+
+// **Output:**
+
+// -A single integer,representing the number of possible combinations of the two dice that add up to the given sum`s`.
+
+// **Example:**
+
+// **Input:**
+
+// 5
+
+// **Output:**
+
+// 4
+
+// **Explanation:**
+
+// For the input sum`5`,the possible combinations of the two dice are:
+
+// -(1,4)-(2,3)-(3,2)-(4,1)
+
+// Thus,there are 4 possible combinations.
 import java.util.Scanner;
 
 public class BiasedDice {

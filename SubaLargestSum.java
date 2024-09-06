@@ -1,3 +1,30 @@
+
+/* **Question:**
+
+Write a program to find the maximum sum of any contiguous subarray in a given array of integers.
+
+**Input:**
+- An integer `n`, the number of elements in the array.
+- `n` integers representing the elements of the array.
+
+**Output:**
+- The maximum sum of any contiguous subarray.
+
+**Example:**
+
+**Input:**
+```
+5
+1 -2 3 4 -1
+```
+
+**Output:**
+```
+7
+```
+
+**Explanation:**
+- The maximum sum of any contiguous subarray is achieved with the subarray `[3, 4]` which sums to `7`.*/
 import java.util.Scanner;
 
 public class SubaLargestSum {

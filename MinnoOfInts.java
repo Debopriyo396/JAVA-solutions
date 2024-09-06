@@ -1,3 +1,43 @@
+
+/*### Question:
+
+**Problem Statement:**
+
+Write a program to find the minimum distance between two specific integers in a given array. The integers are provided as the lower and upper limits. If either of the integers is not present in the array, or if they are not found in the same array, return "Element not present here".
+
+**Input:**
+
+1. An integer `n` representing the number of elements in the array.
+2. An array of `n` integers.
+3. Two integers `x` and `y` which are the lower and upper limits to find in the array.
+
+**Output:**
+
+- Print the minimum distance between any occurrences of `x` and `y` in the array. If either `x` or `y` is not present in the array or they are not found together, print "Element not present here".
+
+**Example:**
+
+**Input:**
+
+```
+Enter number of elements: 7
+Enter array elements: 1 3 5 2 3 7 5
+Enter lower limit: 3
+Enter upper limit: 5
+```
+
+**Output:**
+
+```
+The minimum distance is: 1
+```
+
+**Explanation:**
+
+For the array `[1, 3, 5, 2, 3, 7, 5]`:
+- The number `3` occurs at indices `[1, 4]`.
+- The number `5` occurs at indices `[2, 6]`.
+- The minimum distance between `3` and `5` is `1` (between indices `2` and `4`). */
 import java.util.Scanner;
 
 public class MinnoOfInts {

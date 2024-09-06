@@ -1,3 +1,43 @@
+
+/*### Question:
+
+**Problem Statement:**
+
+Given a string, calculate the total cost of all consonants in the string. The cost of a consonant is defined as the minimum distance between the consonant and any of the vowels (`a, e, i, o, u`).
+
+**Input:**
+
+- A string `s`.
+
+**Output:**
+
+- The total cost of all consonants in the string.
+
+**Example:**
+
+**Input:**
+
+```
+hello
+```
+
+**Output:**
+
+```
+7
+```
+
+**Explanation:**
+
+For the input string `hello`:
+
+1. The consonants are `h`, `l`, and `l`.
+2. The cost of `h` is `1` (minimum distance to vowel `i`).
+3. The cost of `l` is `1` (minimum distance to vowel `i`).
+4. The total cost is `1 + 1 + 1 = 3`.
+
+Thus, the output is `3`. */
+
 import java.util.Scanner;
 
 public class consVowCost {

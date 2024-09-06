@@ -1,3 +1,22 @@
+// ### Problem Statement for the Code (AbsDiff.java):
+
+// **Question**:  
+// Given a number `NUM`, a difference `DIFF`, and an array of size `n`, write a program to determine how many elements in the array have an absolute difference with `NUM` that is less than or equal to `DIFF`. If no such elements are found, return `-1`.
+
+// **Input**:  
+// A number `NUM`, a difference `DIFF`, the size of the array `n`, and an array of integers.
+
+// **Output**:  
+// The count of elements whose absolute difference with `NUM` is less than or equal to `DIFF`, or `-1` if no such element exists.
+
+// **Example**:
+
+// **Input**:  
+// `5 3 4 2 8 10 3`
+
+// **Output**:  
+// `2`
+
 import java.util.Scanner;
 
 public class AbsDiff {

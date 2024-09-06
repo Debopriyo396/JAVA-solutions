@@ -1,5 +1,5 @@
+//QUADRATIC FORMULA
 import java.util.Scanner;
-
 public class quadra {
     public static void main(String[] args) {
         int i=0,j=0,max=0,min =0,d=0;

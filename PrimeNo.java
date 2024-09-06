@@ -1,3 +1,4 @@
+/*PRIME NUMBER */
 import java.util.Scanner;
 
 public class PrimeNo {

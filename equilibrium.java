@@ -1,3 +1,39 @@
+
+/* ### Question:
+
+**Problem Statement:**
+
+Write a program to find the equilibrium index of an array. The equilibrium index of an array is the index at which the sum of the elements to its left is equal to the sum of the elements to its right. If no such index exists, return `-1`.
+
+**Input:**
+
+- An integer `n` representing the number of elements in the array.
+- An array of `n` integers.
+
+**Output:**
+
+- An integer representing the equilibrium index. If no equilibrium index exists, output `NO equilibrium index`.
+
+**Example:**
+
+**Input:**
+
+```
+5
+1 2 3 0 1
+```
+
+**Output:**
+
+```
+3
+```
+
+**Explanation:**
+
+For the input array `[1, 2, 3, 0, 1]`:
+- At index `3`, the sum of elements to the left is `1 + 2 + 3 = 6` and the sum of elements to the right is `1`. 
+- However, since the correct sum should be `0`, the equilibrium index `3` satisfies the condition where the sum of the elements to the left (`6`) equals the sum of the elements to the right (`1`), thus outputting `3`.*/
 import java.util.*;
 
 public class equilibrium {

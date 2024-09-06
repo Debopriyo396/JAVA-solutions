@@ -1,50 +1,32 @@
 
-// import java.util.Scanner;
+/* **Question:**
 
-// public class tripletwithProdm {
-//   public static void main(String[] args) {
-//     int i = 0, j = 0, s = 0, k = 0, c = 0;
-//     Scanner sc = new Scanner(System.in);
-//     System.out.println("Enter no of elements: ");
-//     int n = sc.nextInt();
-//     int a[] = new int[n];
-//     System.out.println("Enter Array elements: ");
-//     for (i = 0; i < n; i++) {
-//       a[i] = sc.nextInt();
-//     }
-//     System.out.println("Enter the number(product):");
-//     int m = sc.nextInt();
-//     int h[] = new int[999];
-//     for (i = 0; i < n; i++) {
-//       h[a[i]]++;
-//     }
-//     for (i = 0; i < n - 2; i++) {
-//       for (j = i + 1; j < n; j++) {
-//         if (a[i] * a[j] < m && a[i] * a[j] != 0) {
-//           k = m / (a[i] * a[j]);
-//           if (check(a, k, j, n)) {
-//             if (k != a[i] && k != a[i])
-//               c++;
-//           }
-//         }
-//       }
-//     }
-//     System.out.println("No of Triplets" + c);
-//   }
+Write a program to find the number of triplets in an array where the product of the three elements is equal to a given number `m`. Each element can be used multiple times, but a triplet should not use the same element more than the number of times it appears in the array.
 
-//   public static boolean check(int[] a, int k, int j, int n) {
-//     for (int i = j + 1; i < n; i++) {
-//       if (k != a[i])
-//         return false;
-//     }
-//     return true;
-//   }
-// }
-// /*
-//  * 1 2 3 4 5 6 7 8 9 10
-//  * 24
-//  * 2 3 1
-//  */
+**Input:**
+- An integer `n`, the number of elements in the array.
+- `n` integers representing the elements of the array.
+- An integer `m`, the product that the triplet should equal.
+
+**Output:**
+- The number of triplets whose product equals `m`.
+
+**Example:**
+
+**Input:**
+```
+5
+1 2 3 4 6
+12
+```
+
+**Output:**
+```
+2
+```
+
+**Explanation:**
+- The triplets that satisfy the condition are `(1, 2, 6)` and `(2, 3, 2)`. Hence, the output is `2`.*/
 import java.util.Scanner;
 
 public class tripletwithProdm {

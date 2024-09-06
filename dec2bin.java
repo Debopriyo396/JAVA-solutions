@@ -1,3 +1,44 @@
+
+/*### Question:
+
+**Problem Statement:**
+
+Write a program that performs the following operations:
+1. Convert a given decimal number to its binary representation.
+2. Convert a given binary number to its decimal representation.
+
+**Input:**
+
+1. A decimal number `n` (for conversion to binary).
+2. A binary number `b` (for conversion to decimal).
+
+**Output:**
+
+1. The binary representation of the given decimal number.
+2. The decimal representation of the given binary number.
+
+**Example:**
+
+**Input:**
+
+```
+enter number
+5
+enter Binary number
+1101
+```
+
+**Output:**
+
+```
+101
+13
+```
+
+**Explanation:**
+
+1. For the decimal number `5`, its binary representation is `101`.
+2. For the binary number `1101`, its decimal representation is `13`. */
 import java.util.Scanner;
 
 public class dec2bin {

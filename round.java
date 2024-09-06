@@ -1,3 +1,38 @@
+
+/* **Question:**
+
+Write a program to determine if a given number is a "Happy Number" or not. A Happy Number is defined as follows:
+- Start with any positive integer.
+- Replace the number with the sum of the squares of its digits.
+- Repeat the process until the number equals 1 (which means it's a Happy Number) or loops endlessly in a cycle that does not include 1 (which means it's not a Happy Number).
+
+**Input:**
+- A positive integer (e.g., `19`)
+
+**Output:**
+- A message indicating whether the number is a Happy Number or not (e.g., `"19 is a Happy Number"`)
+
+**Example:**
+
+**Input:**
+```
+19
+```
+
+**Output:**
+```
+19 is a Happy Number
+```
+
+**Input:**
+```
+4
+```
+
+**Output:**
+```
+4 is not a Happy Number
+```*/
 import java.util.Scanner;
 
 public class round {

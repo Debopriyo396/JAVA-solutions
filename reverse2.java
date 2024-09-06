@@ -1,3 +1,25 @@
+
+/* **Question:**
+
+Write a program to reverse each word in a given sentence while maintaining the original order of the words. 
+
+**Input:**
+1. A sentence (e.g., `"YOU ARE A BOY"`)
+
+**Output:**
+- The sentence with each word reversed (e.g., `"uoy era a yob"`)
+
+**Example:**
+
+**Input:**
+```
+YOU ARE A BOY
+```
+
+**Output:**
+```
+uoy era a yob
+```*/
 import java.util.Scanner;
 
 public class reverse2 {

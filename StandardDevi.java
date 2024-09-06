@@ -1,3 +1,37 @@
+
+/***Question:**
+
+Write a program to calculate the standard deviation of a given set of numbers.
+
+**Input:**
+- An integer `n`, the number of elements.
+- `n` integers, the elements of the array.
+
+**Output:**
+- The standard deviation of the given numbers, rounded to the nearest integer.
+
+**Example:**
+
+**Input:**
+```
+5
+10
+20
+30
+40
+50
+```
+
+**Output:**
+```
+15
+```
+
+**Explanation:**
+- The average of the numbers is 30.
+- The squared differences from the average are: (10-30)², (20-30)², (30-30)², (40-30)², (50-30)².
+- The average of these squared differences is 225.
+- The square root of 225 is 15, which is the standard deviation. */
 import java.util.Scanner;
 
 public class StandardDevi {

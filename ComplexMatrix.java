@@ -1,3 +1,43 @@
+
+/*### Question:
+
+**Problem Statement:**
+
+You are given an array of integers. Your task is to separate the array into two arrays: one containing all the even numbers and one containing all the odd numbers. Then, find the second largest number in each of these arrays and return their sum.
+
+**Input:**
+
+- An integer `n`, the number of elements in the array.
+- An array of `n` integers.
+
+**Output:**
+
+- The sum of the second largest even number and the second largest odd number.
+
+**Example:**
+
+**Input:**
+
+```
+7
+1 2 3 4 5 6 7
+```
+
+**Output:**
+
+```
+9
+```
+
+**Explanation:**
+
+For the input array `[1, 2, 3, 4, 5, 6, 7]`:
+
+1. The even numbers are `[2, 4, 6]` and the odd numbers are `[1, 3, 5, 7]`.
+2. The second largest even number is `4` and the second largest odd number is `5`.
+3. Their sum is `4 + 5 = 9`.
+
+Thus, the output is `9`. */
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -12,12 +52,10 @@ public class ComplexMatrix {
       a[i] = sc.nextInt();
     }
 
-    // Dynamically sized arrays for even and odd numbers
     int[] e = new int[n];
     int[] o = new int[n];
     int j = 0, k = 0;
 
-    // Separate even and odd numbers
     for (int i = 0; i < n; i++) {
       if (a[i] % 2 == 0) {
         e[j++] = a[i];
@@ -26,35 +64,11 @@ public class ComplexMatrix {
       }
     }
 
-    // if (j < 2 || k < 2) {
-    // System.out.println("Not enough elements to find the second largest even and
-    // odd numbers.");
-    // return;
-    // }
-
-    // Find second maximum even and odd numbers
-    // int sme = findSecondMax(e, j);
-    // int smo = findSecondMax(o, k);
     Arrays.sort(e);
     Arrays.sort(o);
     int ne = e.length;
     int no = o.length;
     int res = e[ne - 2] + o[no - 2];
-    // Calculate the result
-    // int res = sme + smo;
     System.out.println("Result: " + res);
   }
-
-  // private static int findSecondMax(int[] a, int len) {
-  // int max = Integer.MIN_VALUE, smax = Integer.MIN_VALUE;
-  // for (int i = 0; i < len; i++) {
-  // if (a[i] > max) {
-  // smax = max;
-  // max = a[i];
-  // } else if (a[i] > smax && a[i] < max) {
-  // smax = a[i];
-  // }
-  // }
-  // return smax;
-  // }
 }

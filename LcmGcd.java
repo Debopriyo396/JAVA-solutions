@@ -1,3 +1,4 @@
+/* FIND LCM AND GCD*/
 import java.util.Scanner;
 
 public class LcmGcd {

@@ -1,3 +1,60 @@
+
+
+/*### Question:
+
+**Problem Statement:**
+
+Given a sentence, calculate the "Difficulty Quotient" (DQ) based on the following rules:
+
+1. Each word in the sentence is analyzed:
+   - If a word has more consonants than vowels, it is classified as a "hard" word.
+   - If a word has three consecutive consonants, it is classified as a "hard" word.
+   - All other words are classified as "easy" words.
+
+2. Calculate the Difficulty Quotient using the formula:
+   \[
+   \text{DQ} = (5 \times \text{number of hard words}) - (2 \times \text{number of easy words})
+   \]
+
+**Definitions:**
+- A consonant is any alphabetic character that is not a vowel.
+- Vowels are `a, e, i, o, u`.
+
+**Input:**
+
+- A sentence as a string `s`.
+
+**Output:**
+
+- The Difficulty Quotient (DQ) as an integer.
+
+**Example:**
+
+**Input:**
+
+```
+hello world this is a test
+```
+
+**Output:**
+
+```
+3
+```
+
+**Explanation:**
+
+For the input sentence `"hello world this is a test"`:
+- Words: `"hello"`, `"world"`, `"this"`, `"is"`, `"a"`, `"test"`
+  - `"hello"`: 3 consonants, 2 vowels (hard)
+  - `"world"`: 4 consonants, 1 vowel (hard)
+  - `"this"`: 3 consonants, 1 vowel (hard)
+  - `"is"`: 1 consonant, 1 vowel (easy)
+  - `"a"`: 0 consonants, 1 vowel (easy)
+  - `"test"`: 3 consonants, 1 vowel (hard)
+- Number of hard words = 4
+- Number of easy words = 2
+- DQ = (5 * 4) - (2 * 2) = 20 - 4 = 16 */
 import java.util.Scanner;
 
 public class DifficultyWord {

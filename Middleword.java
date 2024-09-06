@@ -1,3 +1,38 @@
+/* ### Question:
+
+**Problem Statement:**
+
+Write a program to find and print the middle word(s) from a given sentence. If the sentence has an even number of words, exclude the middle two words from the result.
+
+**Input:**
+
+- A sentence containing multiple words.
+
+**Output:**
+
+- Print the sentence with the middle word(s) removed. If the number of words is odd, remove the middle word; if even, remove the two middle words.
+
+**Example:**
+
+**Input:**
+
+```
+Enter name: The quick brown fox jumps over the lazy dog
+```
+
+**Output:**
+
+```
+The quick fox jumps over the lazy dog
+```
+
+**Explanation:**
+
+For the sentence `"The quick brown fox jumps over the lazy dog"`:
+- The words are: `["The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]`
+- The total number of words is 9, which is odd. The middle word is `"fox"`.
+- After removing `"fox"`, the remaining words are: `"The quick brown jumps over the lazy dog"`.*/
+
 import java.math.*;
 import java.util.*;
 

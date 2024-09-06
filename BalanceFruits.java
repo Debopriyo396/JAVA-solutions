@@ -1,3 +1,22 @@
+
+// ### Problem Statement for the Code (BalanceFruits.java):
+
+// **Question**:  
+// You are given three integers: `A` (apples), `M` (mangoes), and `C` (cost). The goal is to balance the number of apples and mangoes by adjusting the cost. If the number of apples exceeds mangoes, reduce the apples by the cost. Similarly, if mangoes exceed apples, reduce the mangoes by the cost. Print the remaining cost after balancing the apples and mangoes.
+
+// **Input**:  
+// Three integers: `A`, `M`, and `C` representing apples, mangoes, and cost.
+
+// **Output**:  
+// The remaining cost after balancing.
+
+// **Example**:
+
+// **Input**:  
+// `5 3 4`
+
+// **Output**:  
+// `2`
 import java.util.Scanner;
 
 public class BalanceFruits {

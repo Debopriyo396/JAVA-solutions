@@ -1,3 +1,50 @@
+
+/* **Question:**
+
+Write a program to find the sum of the largest elements at even and odd indices in an array.
+
+**Input:**
+- An integer `n` (number of elements).
+- `n` integers (array elements).
+
+**Output:**
+- Sum of the largest even-indexed and odd-indexed elements.
+
+**Example:**
+
+**Input:**
+```
+5
+1 3 5 7 9
+```
+
+**Output:**
+```
+16
+```
+
+**Explanation:**
+- Largest even-indexed element: `9`
+- Largest odd-indexed element: `7`
+- Sum: `9 + 7 = 16`
+
+**Example:**
+
+**Input:**
+```
+4
+2 4 6 8
+```
+
+**Output:**
+```
+14
+```
+
+**Explanation:**
+- Largest even-indexed element: `6`
+- Largest odd-indexed element: `8`
+- Sum: `6 + 8 = 14` */
 import java.util.Scanner;
 
 public class SmallLargeSum {

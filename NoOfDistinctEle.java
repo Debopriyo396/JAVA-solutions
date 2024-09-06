@@ -1,3 +1,37 @@
+
+/* ### Question:
+
+**Problem Statement:**
+
+Write a program to count the number of distinct elements in an array.
+
+**Input:**
+
+1. An integer `n` representing the number of elements in the array.
+2. An array of `n` integers.
+
+**Output:**
+
+- Print the number of distinct elements in the array.
+
+**Example:**
+
+**Input:**
+
+```
+Enter no of elements: 6
+Enter Array elements: 1 2 3 2 4 1
+```
+
+**Output:**
+
+```
+4
+```
+
+**Explanation:**
+
+In the array `[1, 2, 3, 2, 4, 1]`, the distinct elements are `1, 2, 3, 4`. Hence, there are `4` distinct elements.*/
 import java.util.Scanner;
 
 public class NoOfDistinctEle {

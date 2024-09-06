@@ -1,5 +1,5 @@
+/*SIMPLE MATRIX OPERATIONS LIKE ADD, DIAGONAL SUM, UPPER TRIANGLE, BOUNDARY ELEMENTS SUM ,MULTIPLICATION*/
 import java.util.Scanner;
-
 public class MatrixOps {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
